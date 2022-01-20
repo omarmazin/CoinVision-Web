@@ -24,7 +24,6 @@ header a{
 header a:hover{
     color:violet;
 }
-
 #logo{
     text-decoration: none;
     color: #ffffff;
@@ -102,6 +101,7 @@ footer h2{
     color: whitesmoke;
 }
 @media(max-width:1023px){
+    
     header{
         padding: 12px 20px;
     }
@@ -139,11 +139,13 @@ footer h2{
     .main-content h3{
         font-size: 1.4em;
     }
+    .high{text-align: center;}
 }
 @media (max-width:300px) {
     body{
         font-size: 10px;
     }
+    .high{text-align: center;}
 }
 .wa{
     color: white;
