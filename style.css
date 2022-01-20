@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
+*{
+    font-family: 'Poppins' ,'sans-serif' ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding-bottom: 1px;
+}
+header{
+    background-color: rgb(79, 5, 102);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 10px 150px;
+    font-size: large;
+    z-index: 100;
+}
+header a{
+    color: whitesmoke;
+}
+header a:hover{
+    color:violet;
+}
+#logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 650;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+}
+section h3 span a img{
+   
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#p-footer{text-align: center; color: honeydew;}
+section{
+    padding: 100px 200px;
+}
+.main{
+    background-color: rgb(180, 60, 228);  
+    width: 100%;
+   align-items: center;
+}
+
+.high{
+    margin-top: 5px ;
+    padding:5px;
+    color: whitesmoke;
+}
+
+.coins{
+    width: 100%;
+    background-color: rgb(100, 18, 100);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius:10px ;
+    padding: 25px;
+    margin: 15px;
+   
+}
+
+.icon{
+    color: rgb(41, 116, 151);
+    font-size: 8em;
+    text-align: center;
+}
+.info1 {
+    color:rgb(7, 50, 90);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info2{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+footer h2{
+    color: whitesmoke;
+}
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main{
+        z-index:100px;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px) {
+    body{
+        font-size: 10px;
+    }
+}
+.wa{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
